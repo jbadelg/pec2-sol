@@ -60,7 +60,6 @@ body.home {
   background-size: cover;
   background-position: center top;
   color: white;
-  height: 100vh;
   /* overflow: hidden; */
 }
 
@@ -592,4 +591,72 @@ figure {
   .contenedor-imagenes .card {
     width: 70%;
   }
+}
+
+
+.circle {
+  animation: 2s infinite alternate circle;
+}
+
+@keyframes circle {
+  from {
+    clip-path: circle(0%);
+  }
+
+  to {
+    clip-path: circle(120px);
+  }
+}
+
+#pez {
+  position: absolute;
+  animation: 6s run infinite linear;
+}
+
+@keyframes run {
+  0% {
+    left: 20%;
+  }
+
+  50% {
+    left: 80%;
+  }
+
+  100% {
+    left: 20%;
+  }
+}
+
+.agua {
+  position: absolute;
+  width: 100%;
+  animation: 5s ola linear infinite;
+}
+
+.agua1 {
+  position: absolute;
+  width: 100%;
+  animation: 5s ola1 linear infinite;
+}
+
+@keyframes ola {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: 100%;
+  }
+
+}
+
+@keyframes ola1 {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0%;
+  }
+
 }

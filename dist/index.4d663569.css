@@ -55,7 +55,6 @@ blockquote {
 
 body.home {
   color: #fff;
-  height: 100vh;
   background-image: url("cruzJesus.d4d3dd93.jpg");
   background-position: top;
   background-repeat: no-repeat;
@@ -567,6 +566,71 @@ figure {
 
   .contenedor-imagenes .card {
     width: 70%;
+  }
+}
+
+.circle {
+  animation: circle 2s infinite alternate;
+}
+
+@keyframes circle {
+  from {
+    clip-path: circle(0%);
+  }
+
+  to {
+    clip-path: circle(120px);
+  }
+}
+
+#pez {
+  animation: run 6s linear infinite;
+  position: absolute;
+}
+
+@keyframes run {
+  0% {
+    left: 20%;
+  }
+
+  50% {
+    left: 80%;
+  }
+
+  100% {
+    left: 20%;
+  }
+}
+
+.agua {
+  width: 100%;
+  animation: ola 5s linear infinite;
+  position: absolute;
+}
+
+.agua1 {
+  width: 100%;
+  animation: ola1 5s linear infinite;
+  position: absolute;
+}
+
+@keyframes ola {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes ola1 {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0%;
   }
 }
 
