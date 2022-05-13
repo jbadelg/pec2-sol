@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <title>PEC1 HTML II</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <a href="index.html"><img src="./img/logoJesus.png" alt="logo del sitio" title="Jesús" width="278"
+            height="120"></a>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="quien.html">Quien es?</a></li>
+          <li><a href="categorias.html" class="active">Sus Hechos</a></li>
+          <li><a href="enlaces.html">Enlaces</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="container">
+      <div class="flex-container">
+        <nav class="menu-interior">
+          <h3>Sus Hechos:</h3>
+          <ul>
+            <li><a href="nacimiento.html">Nacimiento</a></li>
+            <li class="active">Milagros</li>
+            <li><a href="sanidades.html">Sanidades</a></li>
+            <li><a href="liberaciones.html">Liberaciones</a></li>
+            <li><a href="resurrecciones.html">Resurecciones</a></li>
+            <li><a href="enseñanzas.html">Enseñanzas</a></li>
+            <li><a href="serHijo.html">Sé hijo de Dios</a></li>
+          </ul>
+        </nav>
+        <article>
+          <h1>Milagros hechos por Jesús</h1>
+          <h2>Convertir agua en vino</h2>
+          <p>En una fiesta de matrimonio Jesús, su madre y discipulos fueron invitados. Se le acabó el vino a los
+            anfitriones, lo que significaba una gran verguenza y motivo de humillación pública en ese entonces; entonces
+            Jesús pidió a los sirvientes que llenaran las tinajas de vino, ellos obedecieron, luego les pidió que
+            llevaran el vino al encargado de la fiesta, quien al probarlo dijo que era el más delicioso que había
+            probado y dió honor a los anfitriones al halagarlos por dejar el mejor vino para el final de la fiesta (que
+            duraba días) y no el peor, como acostumbraba la mayoría.
+          </p>
+          <figure>
+            <!-- <img src="img/vino.jpg" alt="Jesús convierte el agua en vino" width="500" height="463" class="img-fluid"> -->
+            <img srcset="img/vino-1200w.png 1200w,
+	                       img/vino-900w.png 900w,
+                         img/vino-675w.png 675w,
+                         img/vino-380w.png 380w" sizes="(max-width: 400px) 380px,
+                        (max-width: 800px) 675px,
+                        (max-width: 1100px) 900px,
+                        (max-width: 1800px) 1200px,
+	                       1200px" src="img/vino-1200w.png" alt="Jesús convierte el agua en vino" class="img-fluid">
+            <figcaption>Jesús convierte el agua en vino</figcaption>
+          </figure>
+
+          <p>Esta narración se encuentra en el evangelio de Juan:
+          </p>
+          <blockquote>
+            <p>5 Entonces María les dijo a los sirvientes: «Hagan todo lo que Jesús les diga.» 6 Allí había seis grandes
+              tinajas para agua, de las que usan los judíos en sus ceremonias religiosas. En cada tinaja cabían unos
+              cien litros. 7 Jesús les dijo a los sirvientes: «Llenen de agua esas tinajas.»
+
+              Los sirvientes llenaron las tinajas hasta el borde. 8 Luego Jesús les dijo: «Ahora, saquen un poco y
+              llévenselo al encargado de la fiesta, para que lo pruebe.»
+
+              Así lo hicieron. 9 El encargado de la fiesta probó el agua que había sido convertida en vino, y se
+              sorprendió, porque no sabía de dónde había salido ese vino. Pero los sirvientes sí lo sabían.
+
+              Enseguida el encargado de la fiesta llamó al novio 10 y le dijo: «Siempre se sirve primero el mejor vino,
+              y luego, cuando ya los invitados han bebido bastante, se sirve el vino corriente. Tú, en cambio, has
+              dejado el mejor vino para el final.»
+
+              11 Jesús hizo esta primera señal en Caná de Galilea. Así empezó a mostrar el gran poder que tenía, y sus
+              discípulos creyeron en él.
+            </p>
+            <cite>Juan 2, 5-11</cite>
+          </blockquote>
+
+          <h2>Alimentar 5000 personas con 5 panes y 2 peces</h2>
+          <p>Jesús se encontraba sanando personas y hablandoles acerca del reino de los cielos, ya era tarde y estaban
+            lejos de sus casa, no tenían sino cinco panes y dos peces, pero Jesús los tomó en sus manos y le dió gracias
+            a Dios, luego los repartió entre la multitud de mas de cinco mil personas, y hasta sobraron doce canastas
+            llenas. </p>
+          <figure>
+            <!-- <img src="img/panes.jpg" alt="Jesús alimenta cinco mil personas con cinco panes y dos peces" width="600"
+              height="463" class="img-fluid"> -->
+            <picture>
+              <source media="(max-width: 500px)" srcset="img/panes-480w.png">
+              <source media="(max-width: 800px)" srcset="img/panes-720w.png">
+              <source media="(max-width: 1100px)" srcset="img/panes-1024w.png">
+              <img src="img/panes-1280w1x.png" class="img-fluid"
+                alt="Jesús alimenta cinco mil personas con cinco panes y dos peces">
+            </picture>
+            <figcaption>Jesús alimenta cinco mil personas con cinco panes y dos peces</figcaption>
+          </figure>
+          <p>En las manos de Jesús aún lo poco que le entreguemos, puede llegar a ser mucho. En otra oportunidad
+            también.</p>
+          <p>hubo un milagro similar, alimentó a mas de cuatro mil personas con siete panes y algunos peces, también
+            llenaron siete canastas con lo que sobraba.</p>
+          <p>Este es el relato:</p>
+          <blockquote>
+            <p> 14 Y saliendo Jesús, vio una gran multitud, y tuvo compasión de ellos, y sanó a los que de ellos estaban
+              enfermos. 15 Cuando anochecía, se acercaron a él sus discípulos, diciendo: El lugar es desierto, y la hora
+              ya
+              pasada; despide a la multitud, para que vayan por las aldeas y compren de comer. 16 Jesús les dijo: No
+              tienen necesidad de irse; dadles vosotros de comer. 17 Y ellos dijeron: No tenemos aquí sino cinco panes y
+              dos peces. 18 Él les dijo: Traédmelos acá. 19 Entonces mandó a la gente recostarse sobre la hierba; y
+              tomando los cinco panes y los dos peces, y levantando los ojos al cielo, bendijo, y partió y dio los panes
+              a los discípulos, y los discípulos a la multitud. 20 Y comieron todos, y se saciaron; y recogieron lo que
+              sobró de los pedazos, doce cestas llenas. 21 Y los que comieron fueron como cinco mil hombres, sin contar
+              las mujeres y los niños.
+            </p>
+            <cite>Mateo 14, 14-21</cite>
+          </blockquote>
+
+          <h2>Resucitar</h2>
+          <p>El mayor milagro que ha hecho Jesús ha sido el de vencer la muerte, ya que Él no tuvo pecado, y la muerte
+            viene por el pecado, entonces la muerte no lo pudo contener, duró tres días en la tumba por llevar el pecado
+            de todas las personas, pero luego se levantó, resucitó, <em> esta vivo!!!</em>
+          </p>
+          <figure>
+            <img srcset="img/resurreccion400.png 400w" sizes="(max-width: 920px) 400px,
+	                       621px" src="img/resurreccion621.png" alt="Jesús saliendo de la tumba luego de vencer la muerte"
+              class="img-fluid">
+            <!-- <img src="img/resurreccion.jpg" alt="Jesús saliendo de la tumba luego de vencer la muerte" width="600" height="463" class="img-fluid"> -->
+            <figcaption>Jesús saliendo de la tumba luego de vencer la muerte</figcaption>
+          </figure>
+          <blockquote>
+            <p>El primer día de la semana, al amanecer, las mujeres fueron al sepulcro con los perfumes que habían
+              preparado. 2 Al llegar, se encontraron con que la piedra que cerraba el sepulcro había sido removida. 3
+              Entraron, pero no encontraron el cuerpo de Jesús, el Señor. 4 Estaban aún desconcertadas ante el caso,
+              cuando se les presentaron dos hombres vestidos con ropas resplandecientes 5 que, al ver cómo las mujeres
+              se postraban rostro en tierra llenas de miedo, les dijeron: — ¿Por qué buscáis entre los muertos al que
+              está vivo? 6 No está aquí; ha resucitado. Recordad que él os habló de esto cuando aún estaba en Galilea. 7
+              Ya os dijo entonces que el Hijo del hombre tenía que ser entregado en manos de pecadores y que iban a
+              crucificarlo, pero que resucitaría al tercer día.</p>
+            <cite>Lucas 24, 1-7</cite>
+          </blockquote>
+          <h2>Jesús hizo y sigue haciendo muchos más grandes milagros </h2>
+          <blockquote>
+            <p>25 Jesús hizo muchas otras cosas; tantas que, si se escribieran una por una, creo que en todo el mundo no
+              cabrían los libros que podrían escribirse.
+            </p>
+            <cite>Juan 21, 25</cite>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="brand">
+        <a href="index.html"><img src="./img/logoJesus.svg" alt="logo del sitio" title="Jesús" width="70"
+            height="40"></a>
+      </div>
+      <nav class="nav-foot">
+        <ul>
+          <li><a href="quien.html">Quien es?</a></li>
+          <li><a href="categorias.html">Sus Hechos</a></li>
+          <li><a href="enlaces.html">Enlaces</a></li>
+        </ul>
+      </nav>
+      <p>2022 &copy; Herramientas HTML y CSS Aula 1: Angel Javier Badel Gasca</p>
+      <ul>
+        <li><a href="">Aviso legal</a></li>
+        <li><a href="">Política de privacidad</a></li>
+        <li><a href="">Política de cookies</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
